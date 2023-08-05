@@ -1,8 +1,9 @@
 // Import the web3.js library
 const Web3 = require('web3');
 
+const myInfuraID = "";
 // Connect to a web3 provider (such as Infura)
-const web3 = new Web3('https://mainnet.infura.io/v3/<your-project-id>');
+const web3 = new Web3(`https://mainnet.infura.io/v3/${myInfuraID}`);
 
 // Define the account address
 const account = '0x742d35Cc6634C0532925a3b844Bc454e4438f44e';
